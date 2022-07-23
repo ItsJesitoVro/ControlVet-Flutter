@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "237791327002",
+    "project_id": "controlvet-flutter",
+    "storage_bucket": "controlvet-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237791327002:android:559f230d0893d3a17132a3",
+        "android_client_info": {
+          "package_name": "com.notific.controlvet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "237791327002-m6cpvj023n1vbatgsdi5rm4cjbk2oidf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWMVWbmuuzUfEuSVfwQjemG4lJ0-FT7Ks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "237791327002-m6cpvj023n1vbatgsdi5rm4cjbk2oidf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
