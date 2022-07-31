@@ -75,8 +75,8 @@ class _LoginScreenState extends State<LoginScreen> {
           email: email, password: password);
       user = userCredential.user;
     } on FirebaseAuthException catch (e) {
-      if (e.code == "User-not-Found") {
-        print("No User Found for that email");
+      if (e.code == "Usuario no encontrado") {
+        print("No se encontró ningún usuario para ese correo electrónico");
       }
     }
 
@@ -96,7 +96,7 @@ class _LoginScreenState extends State<LoginScreen> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const Text(
-              "MyApp Title",
+              "Login con Flutter",
               style: TextStyle(
                 color: Colors.black,
                 fontSize: 28.0,
@@ -104,7 +104,7 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
             ),
             const Text(
-              "Login to Your App",
+              "ControlVet - Notific",
               style: TextStyle(
                 color: Colors.black,
                 fontSize: 44.0,
@@ -118,7 +118,7 @@ class _LoginScreenState extends State<LoginScreen> {
               controller: _emailController,
               keyboardType: TextInputType.emailAddress,
               decoration: const InputDecoration(
-                hintText: "User Email",
+                hintText: "Ingrese su correo",
                 prefixIcon: Icon(Icons.mail, color: Colors.black),
               ),
             ),
@@ -129,7 +129,7 @@ class _LoginScreenState extends State<LoginScreen> {
               controller: _passwordController,
               obscureText: true,
               decoration: const InputDecoration(
-                hintText: "User Password",
+                hintText: "Ingrese la contraseña",
                 prefixIcon: Icon(Icons.lock, color: Colors.black),
               ),
             ),
@@ -137,7 +137,7 @@ class _LoginScreenState extends State<LoginScreen> {
               height: 8.0,
             ),
             const Text(
-              "Don't Remember you password?",
+              "No recuerdas tu contraseña?",
               style: TextStyle(color: Colors.blue),
             ),
             const SizedBox(
@@ -164,7 +164,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     }
                   },
                   child: const Text(
-                    "Login",
+                    "Iniciar",
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 18.0,

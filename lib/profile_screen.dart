@@ -14,7 +14,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text("Welcome to your profile Page"),
+        child: Text("Bienvenido, que tenga un buen dia!!!"),
       ),
     );
   }
